@@ -1,0 +1,61 @@
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(82, 0, 0);
+    margin: 0px;
+    margin-bottom: 30px;
+}
+header {
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.v1{
+    background: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    padding-top: 35px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.titulo{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.sinopse{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.v2{
+    background: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    padding-top: 35px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.v3{
+    background: rgb(0, 0, 0);
+    padding-bottom: 30px;
+    padding-top: 35px;
+    display: flex;
+}
+.outras{
+    background: black;
+    margin-top: 30px;
+    padding-left: 7px;
+}
+h2{
+    padding-left: 42%;
+}
+.temporadas{
+    display: flex; 
+    overflow-x: auto; 
+    gap: 20px;
+}
+img{
+    height: 200px;
+}
+.temporadas img:hover{
+    opacity: 0.5;
+    border: 5px solid white;
+} 
